@@ -6,6 +6,11 @@ que consistem e como podem ser resolvidos esses conflitos?
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
 diferenças entre eles?
 
+Resposta Pergunta 1
+
+As operações Commit, Push e Pop são ações essenciais num repositório Git. O Commit é utilizado para registar e guardar alterações no repositório local, criando um ponto de controlo no histórico do projeto. O Push tem a função de enviar esses commits para o repositório remoto, permitindo a partilha das atualizações com outros utilizadores. Já o Pop é usado para recuperar alterações temporariamente guardadas com o comando stash, retomando o trabalho que havia sido interrompido. Estas operações garantem um fluxo de trabalho organizado e seguro no desenvolvimento colaborativo.
+
+
 Resposta a pergunta 2.
 
 O uso de branches num repositório Git oferece diversas vantagens no desenvolvimento de software. Permite que novas funcionalidades, correções ou testes sejam realizados de forma isolada, sem afetar o código principal. Essa separação garante maior segurança, organização e controlo de versões. Além disso, facilita o trabalho colaborativo, permitindo que vários programadores desenvolvam em paralelo sem conflitos diretos. Por fim, os branches contribuem para um fluxo de trabalho mais estruturado e eficiente, com integração controlada das alterações.
