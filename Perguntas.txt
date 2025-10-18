@@ -15,3 +15,8 @@ Resposta a pergunta 2.
 
 O uso de branches num repositório Git oferece diversas vantagens no desenvolvimento de software. Permite que novas funcionalidades, correções ou testes sejam realizados de forma isolada, sem afetar o código principal. Essa separação garante maior segurança, organização e controlo de versões. Além disso, facilita o trabalho colaborativo, permitindo que vários programadores desenvolvam em paralelo sem conflitos diretos. Por fim, os branches contribuem para um fluxo de trabalho mais estruturado e eficiente, com integração controlada das alterações.
 
+Resposta a pergunta 3 
+
+Conflitos em merges após um “Pop” ocorrem quando alterações no branch local e no branch remoto ou na pilha de commits do stash modificaram a mesma parte de um arquivo de formas diferentes. Eles podem ser resolvidos manualmente, editando o arquivo para escolher ou combinar as mudanças corretas, e depois finalizando o merge com um commit.
+
+
