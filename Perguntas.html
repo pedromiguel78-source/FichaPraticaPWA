@@ -1,0 +1,77 @@
+ 
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Perguntas Git</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+        }
+        p {
+            margin: 8px 0;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .italic {
+            font-style: italic;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        ol {
+            margin-left: 20px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Perguntas e Respostas sobre Git</h1>
+
+    <ol>
+        <li>
+            <h2>Pergunta 1</h2>
+            <p class="bold">O que são operações de “Commit”, “Push” e “Pop” efetuadas num repositório?</p>
+            <p>As operações <span class="bold">Commit</span>, <span class="bold">Push</span> e <span class="bold">Pop</span> são ações essenciais num repositório Git. O <span class="italic">Commit</span> é utilizado para <span class="underline">registar e guardar alterações</span> no repositório local, criando um ponto de controlo no histórico do projeto. O <span class="italic">Push</span> tem a função de <span class="underline">enviar esses commits para o repositório remoto</span>, permitindo a partilha das atualizações com outros utilizadores. Já o <span class="italic">Pop</span> é usado para <span class="underline">recuperar alterações temporariamente guardadas com o comando stash</span>, retomando o trabalho que havia sido interrompido. Estas operações garantem um fluxo de trabalho organizado e seguro no desenvolvimento colaborativo.</p>
+        </li>
+
+        <li>
+            <h2>Pergunta 2</h2>
+            <p class="bold">Quais são as vantagens de usar Branches num repositório Git?</p>
+            <p>O uso de <span class="bold">branches</span> num repositório Git oferece diversas vantagens no desenvolvimento de software:</p>
+            <ul>
+                <li>Permite que novas funcionalidades, correções ou testes sejam realizados de forma <span class="italic">isolada</span>, sem afetar o código principal.</li>
+                <li>Garante maior <span class="underline">segurança, organização e controlo de versões</span>.</li>
+                <li>Facilita o <span class="italic">trabalho colaborativo</span>, permitindo que vários programadores desenvolvam em paralelo sem conflitos diretos.</li>
+                <li>Contribui para um fluxo de trabalho mais estruturado e eficiente, com integração controlada das alterações.</li>
+            </ul>
+        </li>
+
+        <li>
+            <h2>Pergunta 3</h2>
+            <p class="bold">Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em que consistem e como podem ser resolvidos?</p>
+            <p>Conflitos em merges após um <span class="italic">Pop</span> ocorrem quando alterações no branch local e no branch remoto ou na pilha de commits do stash modificaram a mesma parte de um arquivo de formas diferentes. Eles podem ser resolvidos <span class="underline">manualmente</span>, editando o arquivo para escolher ou combinar as mudanças corretas, e depois finalizando o merge com um commit.</p>
+        </li>
+
+        <li>
+            <h2>Pergunta 4</h2>
+            <p class="bold">“Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?</p>
+            <p>O <span class="italic">Clone</span> cria uma <span class="underline">cópia local completa</span> de um repositório existente, incluindo todo o histórico, permitindo trabalhar diretamente nele. Já o <span class="italic">Fork</span> cria uma cópia do repositório no próprio perfil do usuário (geralmente em plataformas como GitHub), permitindo <span class="underline">modificar e enviar contribuições via pull request</span> sem alterar o repositório original.</p>
+        </li>
+    </ol>
+
+</body>
+</html>
