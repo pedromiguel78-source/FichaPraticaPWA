@@ -19,4 +19,8 @@ Resposta a pergunta 3
 
 Conflitos em merges após um “Pop” ocorrem quando alterações no branch local e no branch remoto ou na pilha de commits do stash modificaram a mesma parte de um arquivo de formas diferentes. Eles podem ser resolvidos manualmente, editando o arquivo para escolher ou combinar as mudanças corretas, e depois finalizando o merge com um commit.
 
+Resposta Pergunta 4
+
+“Clone” cria uma cópia local completa de um repositório existente, incluindo todo o histórico, permitindo trabalhar diretamente nele. Já “Fork” cria uma cópia do repositório no próprio perfil do usuário (geralmente em plataformas como GitHub), permitindo modificar e enviar contribuições via pull request sem alterar o repositório original.
+
 
