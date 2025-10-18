@@ -5,3 +5,8 @@
 que consistem e como podem ser resolvidos esses conflitos?
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
 diferenças entre eles?
+
+Resposta a pergunta 2.
+
+O uso de branches num repositório Git oferece diversas vantagens no desenvolvimento de software. Permite que novas funcionalidades, correções ou testes sejam realizados de forma isolada, sem afetar o código principal. Essa separação garante maior segurança, organização e controlo de versões. Além disso, facilita o trabalho colaborativo, permitindo que vários programadores desenvolvam em paralelo sem conflitos diretos. Por fim, os branches contribuem para um fluxo de trabalho mais estruturado e eficiente, com integração controlada das alterações.
+
